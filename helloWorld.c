@@ -6,7 +6,7 @@
 /*   By: rmiranda <rmiranda@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/03 21:52:12 by rmiranda          #+#    #+#             */
-/*   Updated: 2022/02/04 03:04:14 by rmiranda         ###   ########.fr       */
+/*   Updated: 2022/02/04 04:39:07 by rmiranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,12 @@ int main()
 	short int f;
 	
 	printf("\nRESUMO BÁSICO C\n\n");
-	printf("Um int ocupa %lu bytes.\n", sizeof(a));
-	printf("Um char ocupa %lu byte.\n", sizeof(b));
-	printf("Um float ocupa %lu bytes.\n", sizeof(c));
-	printf("Um double ocupa %lu bytes.\n", sizeof(d));
-	printf("Um long int ocupa %lu bytes.\n", sizeof(e));
-	printf("Um short int ocupa %lu bytes.\n", sizeof(f));
+	printf("int ocupa %lu bytes.\n", sizeof(a));
+	printf("char ocupa %lu byte.\n", sizeof(b));
+	printf("float ocupa %lu bytes.\n", sizeof(c));
+	printf("double ocupa %lu bytes.\n", sizeof(d));
+	printf("long int ocupa %lu bytes.\n", sizeof(e));
+	printf("short int ocupa %lu bytes.\n", sizeof(f));
 	printf("\n");
 	printf("Um int signed vai de -128 à 127, por padrão int é signed.\n");
 	printf("Um int unsigned vai de 0 à 255, isso porque ele utiliza o último bit, que no signed int é utilizado para indicar positivo / negativo.\n");
