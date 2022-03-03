@@ -47,6 +47,6 @@ void	ft_print_combn(int n)
 		ft_recursive(str, n, (n - 1));
 		write(1, str, n);
 		if (str[0] != limiter)
-			write(1, ", ", 3);
+			write(1, ", ", 2);
 	}
 }
